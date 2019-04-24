@@ -1,0 +1,6 @@
+#4 Faça um programa que calcule o aumento de um salario.
+#
+# salário = 1500
+# aumento = 5
+#
+# print(salário + (salário * aumento / 100))
