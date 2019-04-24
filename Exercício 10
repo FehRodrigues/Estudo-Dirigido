@@ -14,32 +14,13 @@
 # compraGalao = precoGalao * qtdGalao
 # bestBuyLata = int(rendLitro / litroLata)
 # bestBuyGalao = math.ceil((rendLitro % litroLata) / litroGalao)
-# bestMix = (bestBuyLata * precoLata) + (bestBuyGalao * precoGalao#10 Faça um programa para uma Loja de tintas. O programa deverá pedir o tamanho em metros quadrados da área a ser pintada. Considere que a cobertura da tinta é de 1 litro para cada 3 metros quadrados e que a tinta é vendidaem latas de 18 litros, que custam R$ 80,00. Ou em galões de 3,6 litros, que custam R$ 25,00. Informe ao usuário as quantidades de tinta a serem compradas e os respectivos preços em 3 situaçoes:
-#
-# import math
-#
-# areaRet = float(input("Digite o tamanho da área a ser pintada, em m²: "))
-# rendLitro = areaRet / 6
-# litroLata = 18
-# litroGalao = 3.6
-# precoLata = 80
-# precoGalao = 25
-# qtdLata = math.ceil((rendLitro / litroLata) * 1.10)
-# qtdGalao = math.ceil((rendLitro / litroGalao) * 1.10)
-# compraLata = precoLata * qtdLata
-# compraGalao = precoGalao * qtdGalao
-# bestBuyLata = int(rendLitro / litroLata)
-# bestBuyGalao = math.ceil((rendLitro % litroLata) / litroGalao)
 # bestMix = (bestBuyLata * precoLata) + (bestBuyGalao * precoGalao)
 #
 # print("\nSegue abaixo a quantidade de tinta a ser comprada e os preços em três situações:\n")
 # print("1) Compra de latas de 18 litros:\nQuant: ", qtdLata, "\nPreço: ", compraLata, "\n")
 # print("2) Compra de galões de 3,6 litros:\nQuant: ", qtdGalao, "\nPreço: ", compraGalao, "\n")
 # print("3) Compra de latas e galões de forma a pagar o mínimo possível:\nQuant. de latas: ", bestBuyLata,
-#       "\nQuant. de galões: ", bestBuyGalao, "\nPreço Total: ", bestMix, "\n"))
-#
-# print("\nSegue abaixo a quantidade de tinta a ser comprada e os preços em três situações:\n")
-# print("1) Compra de latas de 18 litros:\nQuant: ", qtdLata, "\nPreço: ", compraLata, "\n")
-# print("2) Compra de galões de 3,6 litros:\nQuant: ", qtdGalao, "\nPreço: ", compraGalao, "\n")
-# print("3) Compra de latas e galões de forma a pagar o mínimo possível:\nQuant. de latas: ", bestBuyLata,
 #       "\nQuant. de galões: ", bestBuyGalao, "\nPreço Total: ", bestMix, "\n")
+#
+#
+#
